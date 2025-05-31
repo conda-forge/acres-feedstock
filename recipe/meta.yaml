@@ -1,5 +1,5 @@
 {% set name = "acres" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b8aa5d46bd4716f914355c633a5181f63c00cbb42bca90826a77b8acf5a07862
+  sha256: 426854074d44cf22376c837ff841a3aa5bb2e07b5ab1ea135d70ea0df8183aa3
 
 build:
   noarch: python
