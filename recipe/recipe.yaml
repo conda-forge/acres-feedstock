@@ -24,7 +24,6 @@ requirements:
     - pdm-backend
   run:
     - python >=${{ python_min }}
-    - importlib_resources
 
 tests:
   - python:
